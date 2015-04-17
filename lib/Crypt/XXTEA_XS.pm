@@ -17,10 +17,10 @@ XSLoader::load('Crypt::XXTEA_XS', $VERSION);
 
 =head1 SYNOPSIS
 
-   use Crypt::XXTEA_PP;
+   use Crypt::XXTEA_XS;
    use Crypt::CBC;
 
-   my $xxtea = Crypt::XXTEA_PP->new( $key );
+   my $xxtea = Crypt::XXTEA_XS->new( $key );
    my $cbc = Crypt::CBC->new( -cipher => $xxtea );
 
    my $text = 'The quick brown fox jumps over the lazy dog.';
